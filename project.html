@@ -1,11 +1,28 @@
-1   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
+    <h1>OEGA GAMING</h1>
+    <div class="button-container">
+        <button onclick="Pageone('page1.html')">our Chair</button>
+        <button onclick="Pagetwo('page2.html')">our Desk</button>
+    </div>
+
+    Guess: <input type="text" id="offer" />
+
     
+ <input type="button" value="Check" onclick="offerChecker()" />
+
+ <p id="forbid">Sorry, you were so close</p>
+ <p id="limited">10% Discount!</p>
+ <p id="full"> 50% off!!</p>
+
+</body>
 </body>
 </html>
