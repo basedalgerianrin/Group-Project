@@ -2,8 +2,6 @@
 body { /*The body of the entire page*/
     font-family: Arial;
     margin: auto;
-    background-color: #000000;
-    color: #f6f6f6;
     background-image: url('Image.jpg');
     background-size: cover;
 } 
@@ -22,7 +20,7 @@ footer { /*basic footer*/
     color: #a8a8a8;
     text-align: center;
     padding: 20px;
-    width: 100%;
+
 }  
 .img{ /*Changing the height and width of my image*/
     border: 20px;
