@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background-image: url('img6.jpg');
+    background-size: cover;
+    Background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+   
+}
+
+.box {
+    background-color:white ;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(255, 0, 0);
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.box p {
+    font-size: 1rem;
+    color: grey;
+}
